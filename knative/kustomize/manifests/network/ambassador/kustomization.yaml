@@ -1,0 +1,7 @@
+commonLabels:
+  app.kubernetes.io/managed-by: ambassador
+
+resources:
+- namespace.yaml
+- ambassador-rbac.yaml
+- ambassador-service.yaml
