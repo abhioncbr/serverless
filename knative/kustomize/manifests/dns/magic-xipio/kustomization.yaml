@@ -1,0 +1,5 @@
+commonLabels:
+  app.kubernetes.io/managed-by: magic-dns-xipio
+
+resources:
+- serving-default-domain.yaml
